@@ -24,7 +24,7 @@
 }
 
 .tapnav input[type=text] {
-    float: right;
+    align: right;
     padding: 6px;
     border: none;
     margin-top: 8px;
@@ -44,4 +44,8 @@
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+}
+
+.footer {
+    clear: both;
 }
