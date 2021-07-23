@@ -14,7 +14,7 @@
 }
 
 .topnav a {
-    float: left;
+    align-items: left;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -34,12 +34,13 @@
 }
 
 .tapnav input[type=text] {
-    align: right;
+    align-items: right;
     padding: 6px;
     border: none;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    background-color: thistle;
 }
 
 @media screen and (max-width: 600px) {
